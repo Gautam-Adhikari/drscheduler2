@@ -30,7 +30,6 @@ const Header = () => {
         <div>
           <img src={logo} alt="" />
         </div>
-
     {/* ======= menu ======= */}
     <div className="navigation">
       <ul className="menu flex items-center gap-[2.7rem]">

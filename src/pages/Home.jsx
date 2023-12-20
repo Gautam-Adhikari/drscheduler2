@@ -31,7 +31,7 @@ const Home = () => {
 
           {/*===============hero content ================*/}
           <div>
-            <div className='lg:w-[570px]'> 
+ 
               <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]'>We are glad to help a roadside individua.</h1>
               <p className='text__para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo repudiandae molestiae voluptate vero, at debitis aliquid illo fugit odio voluptatibus quisquam enim? Autem modi pariatur quae est ducimus! Quisquam, fugit.
               </p>

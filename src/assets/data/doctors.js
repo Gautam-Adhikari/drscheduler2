@@ -1,5 +1,5 @@
 import doctorImg01 from "../images/doctor1G.png";
-import doctorImg02 from "../images/doctor2k.png";
+import doctorImg02 from "../images/doctor2K.png";
 import doctorImg03 from "../images/doctor-img03.png";
 
 export const doctors = [

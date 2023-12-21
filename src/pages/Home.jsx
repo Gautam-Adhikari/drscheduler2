@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage01 from "../assets/images/patientnaman.jpeg"
+import heroImage01 from "../assets/images/hero-img01.png"
 import heroImage02 from "../assets/images/doctorG.jpeg"
 import heroImage03 from "../assets/images/doctorK.jpeg"
 import icon01 from "../assets/images/icon01.png"
@@ -32,8 +32,8 @@ const Home = () => {
           {/*===============hero content ================*/}
           <div>
             <div className='lg:w-[570px]'> 
-              <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]'>We are glad to help a roadside individua.</h1>
-              <p className='text__para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo repudiandae molestiae voluptate vero, at debitis aliquid illo fugit odio voluptatibus quisquam enim? Autem modi pariatur quae est ducimus! Quisquam, fugit.
+              <h1 className='text-[32px] leading-[46px] text-headingColor font-[800] md:text-[59px] md:leading-[70px]'>Effortless bookings, expert care for your well-being.</h1>
+              <p className='text__para'>Effortlessly schedule doctor appointments on our user-friendly platform. Swift and secure, our website connects you with trusted healthcare professionals, ensuring instant confirmations and personalized medical care for your well-being.
               </p>
 
               <button className='btn'>Request an Appointment</button>
@@ -43,19 +43,19 @@ const Home = () => {
             <div className='mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-[5px] lg:gap-[30px]'>
 
               <div>
-                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>30+</h2>
+                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>30+</h2>&nbsp;
                 <span className='w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]'></span>
                 <p className='text__para'>Years of Experience</p>
               </div>
 
               <div>
-                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>15+</h2>
+                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>15+</h2>&nbsp;
                 <span className='w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]'></span>
                 <p className='text__para'>Clinic Locations</p>
               </div>
 
               <div>
-                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>100%</h2>
+                <h2 className='text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor'>100%</h2>&nbsp;
                 <span className='w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]'></span>
                 <p className='text__para'>Patient Satisfaction</p>
               </div>
@@ -82,10 +82,10 @@ const Home = () => {
     <section>
       <div className="container">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="heading text-center">
+          <h2 className="heading text-center text-[50px] leading-[60px]">
               Providing the best medical Services 
           </h2>
-          <p className="text_para text-center">
+          <p className="text_para text-center py-4 text-[20px]">
       World-class care for everyone. Our health System offers unmatched,
       expert health care.
           </p>
@@ -100,7 +100,7 @@ const Home = () => {
           <div className="mt-[30px]">
           <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
               Find a Doctor </h2 >
-          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.</p>
+          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Discover trusted doctors near you. Filter by specialty and read reviews for informed decisions on our user-friendly platform.</p>
 
           <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
           <BsArrowRight className="group-hover:text-white w-6"/>
@@ -115,7 +115,7 @@ const Home = () => {
           <div className="mt-[30px]">
           <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
               Find a Location </h2 >
-          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.</p>
+          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Locate nearby clinics easily. Enter your area or use GPS for quick, convenient access to healthcare appointments.</p>
 
           <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
           <BsArrowRight className="group-hover:text-white w-6"/>
@@ -130,7 +130,7 @@ const Home = () => {
           <div className="mt-[30px]">
           <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
               Book Appointment </h2 >
-          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.</p>
+          <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Effortlessly schedule appointments. Choose your preferred time and specialist for seamless booking on our user-friendly platform.</p>
 
           <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
           <BsArrowRight className="group-hover:text-white w-6"/>
@@ -149,8 +149,8 @@ const Home = () => {
     <section>
     <div className="container">
     <div className="xl:w-[470px] mx-auto">
-    <h2 className="heading text-center">Our medical services</h2>
-    <p className="text__para text-center">
+    <h2 className="heading text-center text-[50px] leading-[60px]">Our medical services</h2>
+    <p className="text__para text-center text-[20px]">
     World-class care for everyone. Our health System offers unmatched,
     expert health care.
     </p>
@@ -192,9 +192,9 @@ const Home = () => {
           <div className="flex items-center justify-between">
           <div className="flex items-center gap-[6px] lg:gap-3">
             <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-headingColor font-[600]">
-          Tue, 24 </p>
+          Fri, 22 </p>
           <p className="text-[10px] leading-[10px] 1g:text-[14px] \g:leading-5 text-textColor font-[400]">
-            10:00 AM
+            3:30 PM
           </p>
           </div>
           <span className="w-5 h-5 lg:w-[34px] lg:h-[34px] flex items-center justify-center bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]">
@@ -207,7 +207,7 @@ const Home = () => {
           
               <div className="flex items-center gap-[6x] lg:gap-[10px] mt-2 lg:mt-[18px]">
               <img src = {avatarIcon} alt=""/>
-              <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Wayne Collins</h4>
+              <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Dr. Raj Patel</h4>
               </ div>
 
           </div>
@@ -223,8 +223,8 @@ const Home = () => {
     <section>
       <div className="container">
       <div className="xl:w-[470px] mx-auto">
-       <h2 className="heading text-center">Our great doctors</h2>
-      <p className="text__para text-center">
+       <h2 className="heading text-center text-[50px] leading-[60px]">Our great doctors</h2>
+      <p className="text__para text-center text-[20px]">
        World-class care for everyone. Our health System offers unmatched,
         expert health care.
     </p>

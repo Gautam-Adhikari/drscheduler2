@@ -1,36 +1,36 @@
-import doctorImg01 from "../images/doctor-img01.png";
-import doctorImg02 from "../images/doctor-img02.png";
+import doctorImg01 from "../images/doctor1G.png";
+import doctorImg02 from "../images/doctor2k.png";
 import doctorImg03 from "../images/doctor-img03.png";
 
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Alfaz Ahmed",
+    name: "Dr. Gautam Adhikari",
     specialization: "Surgeon",
     avgRating: 4.8,
-    totalRating: 272,
+    totalRating: 326,
     photo: doctorImg01,
     totalPatients: 1500,
-    hospital: "Mount Adora Hospital, Sylhet.",
+    hospital: "Delhi Medical Centre, Delhi.",
   },
   {
     id: "02",
-    name: "Dr. Saleh Mahmud",
+    name: "Dr. Kunal Rana",
     specialization: "Neurologist",
-    avgRating: 4.8,
-    totalRating: 272,
+    avgRating: 4.7,
+    totalRating: 472,
     photo: doctorImg02,
-    totalPatients: 1500,
-    hospital: "Mount Adora Hospital, Sylhet.",
+    totalPatients: 2200,
+    hospital: "Unity Hospital, Delhi.",
   },
   {
     id: "03",
-    name: "Dr. Farid Uddin",
+    name: "Dr. Naman Goel",
     specialization: "Dermatologist",
     avgRating: 4.8,
     totalRating: 272,
     photo: doctorImg03,
     totalPatients: 1500,
-    hospital: "Mount Adora Hospital, Sylhet.",
+    hospital: "Mount Adora Hospital, Ghaziabad.",
   },
 ];

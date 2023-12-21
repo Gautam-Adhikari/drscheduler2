@@ -33,7 +33,7 @@ const Testimonial = () => {
         <div className="py-[30px] px-5 rounded-3">
         <div className="flex items-center gap-[13px]">
         <img src={patientAvatar} alt=""></img>
-        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Muhibur Rahman </h4>
+        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Amit Patel </h4>
         <div className="flex items-center gap-[2px]">
         <HiStar className=" text-yellowColor w-[18px] h-5" /> 
         <HiStar className=" text-yellowColor w-[18px] h-5" />
@@ -51,7 +51,7 @@ const Testimonial = () => {
         <div className="py-[30px] px-5 rounded-3">
         <div className="flex items-center gap-[13px]">
         <img src={patientAvatar} alt=""></img>
-        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Muhibur Rahman </h4>
+        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Priya Sharma</h4>
         <div className="flex items-center gap-[2px]">
         <HiStar className=" text-yellowColor w-[18px] h-5" /> 
         <HiStar className=" text-yellowColor w-[18px] h-5" />
@@ -62,7 +62,7 @@ const Testimonial = () => {
         </div>
         </div>
         <p className="text-[16px] leading-7 mt-4 text-textColor font-[400)">
-        "I have taken medical services from them. They treat so well and they are providing the best medical services.</p>
+        "Exceptional service! Booking appointments is a breeze, significantly improved my healthcare experience. Highly recommend!</p>
         </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -80,14 +80,14 @@ const Testimonial = () => {
         </div>
         </div>
         <p className="text-[16px] leading-7 mt-4 text-textColor font-[400)">
-        "I have taken medical services from them. They treat so well and they are providing the best medical services.</p>
+        "User-friendly interface, quick appointments, and excellent healthcare—this website is a game-changer in optimizing my medical journey. Highly satisfied customer.</p>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="py-[30px] px-5 rounded-3">
         <div className="flex items-center gap-[13px]">
         <img src={patientAvatar} alt=""></img>
-        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Muhibur Rahman </h4>
+        <div><h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">Rahul Verma </h4>
         <div className="flex items-center gap-[2px]">
         <HiStar className=" text-yellowColor w-[18px] h-5" /> 
         <HiStar className=" text-yellowColor w-[18px] h-5" />

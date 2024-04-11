@@ -51,7 +51,7 @@ const Signup = () => {
     <div className="mb-5">
     <input type= "text"
     placeholder="Full Name"
-    name=" name" 
+    name="name" 
     value={formData.name}
     onChange={handleInputChange}
     className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61]

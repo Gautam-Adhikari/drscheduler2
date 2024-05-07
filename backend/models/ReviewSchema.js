@@ -43,7 +43,7 @@ reviewSchema.pre(/^find/, function(next){
     avgRating: {$avg: '$rating'}
     }
   }])
-  await Doctor.findByIdAndUpdate(doctorId, {
+  await Doctor.findByIdAndUpdate(doctorid, {
     totalRating: stats[0].numOfRating, 
     averageRating: stats[0].avgRating,
   });

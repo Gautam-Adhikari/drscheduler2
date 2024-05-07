@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import DoctorSchema from "../models/DoctorSchema.js";
+import Doctor from "../models/DoctorSchema.js";
 import User from "../models/UserSchema.js";
 
 export const authenticate = async (req, res, next)=>{
@@ -9,12 +9,12 @@ export const authenticate = async (req, res, next)=>{
     }
     try {
         const token = authToken.split(" ")[1];
-        const decoded = jwt.verify(token, process.env. JWT_SECRET_KEY)
+        const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY)
         req.userId = decoded.id
         req.role = decoded.role
         next();
     } catch (error) {
-        if(err.name==='TokenExpiredError'){
+        if(error.name==='TokenExpiredError'){
             return res.status(401).json({message: 'Token is expired'})
         }
         return res.status(401).json({success:false, message: 'Invalid token'})
@@ -27,7 +27,7 @@ export const restrict = roles => async (req, res, next) => {
     let user;
 
     const patient = await User.findById(userId);
-    const doctor = await doctor.findById(userId);
+    const doctor = await Doctor.findById(userId);
     if(patient) {
     user = patient;
     }

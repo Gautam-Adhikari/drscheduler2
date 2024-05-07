@@ -5,7 +5,7 @@ import { createContext, useContext, useEffect, useReducer} from "react";
         role:null, 
         token: null,
     };
-export const authContext = createContext(initialState);
+export const AuthContext = createContext(initialState);
     const authReducer = (state, action)=>{
     switch(action.type){
     case 'LOGIN_START' :
@@ -34,7 +34,7 @@ export const authContext = createContext(initialState);
 export const AuthContextProvider = ({children})=>{
     const [state, dispatch] = useReducer(authReducer, initialState)
 
-    return <authContext.Provider value={{user:state.user, token:state.token, role:state.role, dispatch}}> 
+    return <AuthContext.Provider value={{user:state.user, token:state.token, role:state.role, dispatch}}> 
     {children} 
-    </authContext.Provider>
+    </AuthContext.Provider>
 }
